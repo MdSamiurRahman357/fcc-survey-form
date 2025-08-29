@@ -1,0 +1,28 @@
+<h1 id="title">Survey Form</h1>
+<p id="description">This is my certification project</p>
+<form id="survey-form">
+<label id="name-label">Enter Your Name:<input id="name" type="text" placeholder="Enter Your Name " required></label>
+<hr>
+<label id="email-label">Enter Your Email:<input id="email" type="email" placeholder="Enter Your Email" required></label><br>
+<hr>
+<label id="number-label">Enter Your Age:<input id="number" type="number" min="1" max="90" placeholder="Enter Your Age" required></label><br>
+<hr>
+What would you advice us to improve?<select id="dropdown" required>
+<option>Artificial Intelligence(AI)</option>
+<option>Data Visualization</option>
+<option>Other</option>
+</select>
+<hr>
+What are the qualifications:<br>
+<input type="radio" name="q1" value="10" checked>10th pass
+<input type="radio" name="q1" value="12">12th pass<br>
+<hr>
+What is your optional subject:<br>
+<input type="checkbox" name="c1" value="IT">Information Technology(It)<br>
+<input type="checkbox" name="c1" value="CS">Computer Scienece(CS)
+<hr>
+Let Us Know What you think:(Optional)
+<input type="textarea"><br><br>
+<input id="submit" type="submit">
+<textarea id="comments"></textarea>
+</form>
